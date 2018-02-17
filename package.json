@@ -1,0 +1,25 @@
+{
+  "name": "menu-gif-search",
+  "version": "1.0.0",
+  "description": "A minimal gif search tool.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/MatthewRDodds/giphy-search",
+  "keywords": [
+    "gif",
+    "search",
+    "menu",
+    "giphy",
+    "electron"
+  ],
+  "author": "matthewrusselldodds@gmail.com",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  },
+  "dependencies": {
+    "menubar": "^5.2.3",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
