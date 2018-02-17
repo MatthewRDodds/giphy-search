@@ -1,4 +1,4 @@
-# Giphy Menu Search
+# Giphy Search
 
 This is a minimal Electron application for searching gifs using giphy.
 
