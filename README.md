@@ -11,7 +11,7 @@ Clone this repository:
 git clone https://github.com/MatthewRDodds/giphy-search
 ```
 
-Add your Giphy API key in `app.js`:
+Add your Giphy API key in `renderer.js`:
 ```js
 const apiKey = 'YOUR_KEY'
 ```
