@@ -1,5 +1,6 @@
 {
-  "name": "menu-gif-search",
+  "name": "giphy-search",
+  "productName": "GiphySearch",
   "version": "1.0.0",
   "description": "A minimal gif search tool.",
   "main": "main.js",
