@@ -19,6 +19,7 @@
     "electron": "~1.7.8"
   },
   "dependencies": {
+    "electron-log": "2.2.14",
     "menubar": "^5.2.3",
     "whatwg-fetch": "^2.0.3"
   }

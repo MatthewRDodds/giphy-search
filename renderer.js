@@ -1,5 +1,8 @@
 require('whatwg-fetch')
 
+// Default output: ~/Library/Log/GiphySearch/log.log
+const logger = require('electron-log')
+
 const { clipboard } = require('electron')
 const apiKey = 'YOUR_KEY'
 
@@ -45,6 +48,6 @@ document.querySelector('#search').addEventListener('keyup', function(){
     renderImages(json)
     bindImageSelectors()
   }).catch(function(ex) {
-    console.log('parsing failed', ex)
+    logger.warn('parsing failed', ex)
   })
 })
