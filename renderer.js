@@ -4,7 +4,10 @@ require('whatwg-fetch')
 const logger = require('electron-log')
 
 const { clipboard } = require('electron')
-const apiKey = 'YOUR_KEY'
+
+// For local dev, we can set this on the environment.
+// We'll need it hardcoded for distribution builds, though!
+const apiKey = process.env.GIPHY_API_KEY || "YOUR_API_KEY";
 
 const apiURL = (query) => {
   return 'http://api.giphy.com/v1/gifs/search?q=' + query + '&api_key=' + apiKey + '&rating=pg'
