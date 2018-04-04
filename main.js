@@ -1,2 +1,8 @@
 var menubar = require('menubar')
-var mb = menubar({ height: 575 })
+const logger = require('electron-log')
+
+let mbOpts = {
+  height: 575,
+  showDockIcon: true
+}
+var mb = menubar(mbOpts)
