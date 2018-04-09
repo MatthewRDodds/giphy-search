@@ -17,7 +17,7 @@
   ],
   "author": "matthewrusselldodds@gmail.com",
   "devDependencies": {
-    "electron": "~1.7.8",
+    "electron": "~> 1.8.2-beta5",
     "electron-packager": "^12.0.0"
   },
   "dependencies": {
